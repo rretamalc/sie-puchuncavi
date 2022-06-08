@@ -1,0 +1,285 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@7.32.4/dist/sweetalert2.all.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.29.2/dist/sweetalert2.min.css" type="text/css">
+
+<?php
+
+$est = new Zend_Session_Namespace('establecimiento');
+$id_establecimiento = $est->establecimiento;
+
+$idtipoev = new Zend_Session_Namespace('tipoevaluacion');
+$idtevalucacion = $idtipoev->tipoevaluacion;
+
+$codigos = new Zend_Session_Namespace('codigo');
+$codigo = $codigos->codigo;
+
+$nombrecurso = new Zend_Session_Namespace('nombre_curso');
+$nombre_curso = $nombrecurso->nombre_curso;
+
+$idcurso = new Zend_Session_Namespace('id_curso');
+$idCurso = $idcurso->id_curso;
+
+$iddetallecurso = new Zend_Session_Namespace('id_detalle_curso');
+$id_detalle_curso = $iddetallecurso->id_detalle_curso;
+
+$cargos = new Zend_Session_NameSpace("cargo");
+$rol = $cargos->cargo;
+
+$ingreson = new Zend_Session_Namespace('ingresonota');
+$ingresonota = $ingreson->ingresonota;
+
+$nivelcurso = new Zend_Session_Namespace('nivel_curso');
+$nivel_curso = $nivelcurso->nivel_curso;
+
+$periodo = new Zend_Session_Namespace('periodo');
+$idPeriodo = $periodo->periodo;
+
+?>
+
+
+<div id="monitoreo-chocota-evaluacion-formativa">
+
+  <div v-if="codigo === 110" >
+
+    <div class="d-flex justify-content-left">
+      <!--<b-button
+        class="button medium primary"
+        style=" color: rgb(93, 99, 102); border-color: #a09d98! important;"
+        >
+        <i class="icon-hand-left"></i>
+        Volver a Monitoreo
+      </b-button>-->
+      <b-button
+          class="button medium"
+          href="<?php echo $this->url(array('controller' => 'Libro',
+              'action' => 'monitoreo'), null, TRUE);?>"
+      >
+          <i class="icon-hand-left"></i>
+          Volver a Monitoreo
+      </b-button>
+
+      <!-- NUEVA EVALUACIÓN -->
+      <btn-modal
+        class="text-center ml-2"
+        clases="btn green"
+        tipo="Crear"
+        texto="Evaluación Formativa"
+        nombre_modal="modal-create-evaluacion"
+      />
+
+    </div>
+    <div>
+      <!--
+        TODO: IMPORTANTE!
+        EL modal se puso en un div arriba de su btn,
+        ya que se sobreponían
+        v-if="idAsignaturaSelected !== null"
+      -->
+      <evaluacion-create
+        v-if="tabAsignatura !== null"
+        modulo="Evaluación"
+        nombre_modal="modal-create-evaluacion"
+        tipo_evaluacion="Formativa"
+        :id_tipo_evaluacion="idTipoEvalucacion"
+        :id_asignatura_selected.sync="idAsignaturaSelected"
+        :id_curso="idCurso"
+        :nombre_asignatura="nombreAsignaturaSelected"
+        :id_periodo="idPeriodo"
+        :tiempo_evaluacion.sync="tiempoEvaluacion"
+        />
+        <!--:id_asignatura_selected="Number(idEvaluacion)"-->
+    </div>
+
+    <!-- TITULO -->
+    <h4
+          class="text-left mt-3"
+        >
+          Evaluación Formativa Monitoreo: <?php echo $nombre_curso ?> / {{ asignaturas[0].nombreAsignatura }}
+        </h4>
+        <h5
+          class="text-left mb-4"
+        >
+
+           {{ nombreAsignaturaSelected }}
+        </h5>
+        <!-- TIPO EVALUACION -->
+        <b-form-group
+          id="labelTiempoEvaluacion"
+          label-for="tiempoEvaluacion"
+        >
+          <!--label="Trimestre"-->
+          <b-form-select
+            id="tiempoEvaluacion"
+            v-model="tiempoEvaluacion"
+            class="mt-1"
+            placeholder="Selecciona la evaluación..."
+            :options="tiempoEvaluaciones"
+            :value="tiempoEvaluacion"
+            size="sm"
+          />
+            <!--@change="validaTipoEvaluacion"-->
+          <!--:state="!validaEvaluacionCreada ? null : false"-->
+          <!--:disabled="tipo_evaluacion === 'Formativa'"-->
+        </b-form-group>
+    <div class="mt-4">
+      <b-tabs
+        content-class="p-0"
+        v-model="tabAsignatura"
+      >
+        <b-tab
+          v-for="(asignatura, index) in asignaturas"
+          v-bind:key="index"
+          :value="asignatura.idAsignatura"
+          :title="asignatura.nombreAsignatura"
+          :active="index == 0"
+        >
+
+        <!-- v-if="alumnosCurso && idAsignaturaSelected !== null" -->
+        <!--:id_asignatura_selected="Number(idEvaluacion)"-->
+          <formativa
+            v-if="alumnosCurso && tabAsignatura !== null"
+            :alumnos_curso="alumnosCurso"
+            :id_tipo_evaluacion="idTipoEvalucacion"
+            :id_asignatura="asignatura.idAsignatura"
+            :id_periodo="idPeriodo"
+            :id_curso="idCurso"
+            :id_asignatura_selected="idAsignaturaSelected"
+            :nombre_asignatura="nombreAsignaturaSelected"
+            :tiempo_evaluacion.sync="tiempoEvaluacion"
+          />
+            <!--:nombre_contenido="contenido" -->
+            <!--:nombre_nota="nombreNota"-->
+
+        </b-tab>
+      </b-tabs>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+
+  new Vue({
+    el: "#monitoreo-chocota-evaluacion-formativa",
+    alumnos,
+    evaluaciones,
+    notas,
+    guias,
+    data: {
+      idPeriodo: <?php echo $idPeriodo ?>,
+      idCurso: <?php echo $idCurso ?>,
+      codigo: <?php echo $codigo ?>,
+      rol: <?php echo $rol ?>,
+      idTipoEvalucacion: <?php echo $idtevalucacion ?>,
+      // contenido: "<?php echo $this->evaluacion[0]['contenido'] ?>",
+      // idAsignaturaSelected: <?php echo $this->evaluacion[0]['idAsignatura'] ?>,
+      nombreAsignaturaSelected: "<?php echo $this->nombre_asignatura_selected ?>",
+      idAsignaturaSelected: <?php echo $this->id_asignatura_selected ?>,
+      // nombreAsignaturaSelected: null,
+      tabAsignatura: null,
+      asignaturas: [],
+      alumnosCurso: [],
+      data: [],
+      tiempoEvaluacion: 3,
+      tiempoEvaluaciones: [
+        { value: 3, text: 'I Trimestre'},
+        { value: 4, text: 'II Trimestre' },
+        { value: 5, text: 'III Trimestre' },
+      ],
+    },
+    computed: {
+    },
+    watch: {
+      tabAsignatura() {
+        this.changeAsignatura()
+      },
+      // tiempoEvaluacion() {
+      //   this.setData(
+      //     <?php echo $idPeriodo ?>,
+      //     <?php echo $idCurso ?>,
+      //     <?php echo $this->id_asignatura_selected ?>,
+      //     this.tiempoEvaluacion
+      //   )
+      //   notas.dispatch('fetchNotasFormativas', this.data[0])
+      // },
+    },
+    created() {
+      <?php
+        $largoAlumnos = count($this->alumnos);
+        for ($i = 0; $i < $largoAlumnos; $i++) {
+          $alumno = $this->alumnos[$i];
+      ?>
+        this.setAlumnos('<?php echo json_encode($alumno)?>')
+      <?php
+        }
+        $largoAsignaturas = count($this->listaasignatura);
+        for ($a = 0; $a < $largoAsignaturas; $a++) {
+          $asignatura = $this->listaasignatura[$a];
+      ?>
+          this.setAsignaturas('<?php echo json_encode($asignatura)?>')
+      <?php
+        }
+      ?>
+      this.setData(
+        <?php echo $idPeriodo ?>,
+        <?php echo $idCurso ?>,
+        <?php echo $this->id_asignatura_selected ?>,
+        this.tiempoEvaluacion
+      )
+      guias.dispatch('fetchGuiasFormativasCurso', this.data[0])
+      // notas.dispatch('fetchNotasFormativas', this.data[0])
+      evaluaciones.dispatch('fetchEvaluacionesCurso', this.data[0])
+      // evaluaciones.dispatch('fetchEvaluacionesFormativasCurso', this.data[0])
+    },
+    methods: {
+      ...Vuex.mapActions([{ fetchEvaluacionesFormativasCurso: 'evaluaciones/fetchEvaluacionesFormativasCurso' }]),
+      ...Vuex.mapActions([{ fetchNotasFormativas: 'notas/fetchNotasFormativas' }]),
+      change() {
+
+      },
+      setAsignaturas(asignatura) {
+        const asignaturaPush = JSON.parse(asignatura);
+        if (Number(asignaturaPush.idAsignatura) === Number(this.idAsignaturaSelected)) {
+          this.asignaturas.push(asignaturaPush)
+        }
+        // this.asignaturas.push(asignaturaPush)
+      },
+      setAlumnos(alumno) {
+        const alumnoPush = JSON.parse(alumno);
+        this.alumnosCurso.push(alumnoPush)
+      },
+      changeAsignatura() {
+        this.idAsignaturaSelected = this.asignaturas[this.tabAsignatura]['idAsignatura']
+        this.nombreAsignaturaSelected = this.asignaturas[this.tabAsignatura]['nombreAsignatura']
+      },
+      setData(idPeriodo, idCurso, idAsignaturaSelected, tiempoNota) {
+        this.data = []
+        this.data.push({
+          idPeriodo,
+          idCurso,
+          idAsignaturaSelected,
+          tiempoNota,
+        })
+      },
+      goToGuias(idEvaluacion, nombreNota) {
+        const baseUrl = index.getters.api
+        const data = `?idEvaluacion=${idEvaluacion}&nombreNota=${nombreNota}`
+        window.location.href = baseUrl+'Monitoreo/chocotaabrirevaluaciones/'+data;
+      },
+    },
+  })
+</script>
+
+<style>
+  input.transparent-input{
+    background-color:transparent !important;
+    border:none !important;
+    border-bottom: 1px solid! important;
+  }
+</style>
+
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

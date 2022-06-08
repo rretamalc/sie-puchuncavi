@@ -1,0 +1,5536 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>.:SIGE:. Ministerio de Educación</title>
+    <meta content="text/html;charset=iso-8859-1" http-equiv="Cache-Control" />
+    <meta content="no-cache" http-equiv="Pragma" />
+    <meta content="-1" http-equiv="Expires" />
+    <meta content="Mineduc - Informatica" name="Author" />
+    <link type="image/ico" href="https://staticv2.mineduc.cl/img/favicon.ico" rel="icon" />
+    <link type="../image/ico" href="favicon.ico" rel="icon" />
+  </head>
+  <body>
+    <br />
+    <br />
+    <table width="100%">
+      <thead>
+        <tr>
+          <th scope="col">Año</th>
+          <th scope="col">RBD</th>
+          <th scope="col">Cod Tipo Enseñanza</th>
+          <th scope="col">Cod Grado</th>
+          <th scope="col">Desc Grado</th>
+          <th scope="col">Letra Curso</th>
+          <th scope="col">Run</th>
+          <th scope="col">Dígito Ver.</th>
+          <th scope="col">Genero</th>
+          <th scope="col">Nombres</th>
+          <th scope="col">Apellido Paterno</th>
+          <th scope="col">Apellido Materno</th>
+          <th scope="col">Dirección</th>
+          <th scope="col">Comuna Residencia</th>
+          <th scope="col">Código Comuna Residencia</th>
+          <th scope="col">Email</th>
+          <th scope="col">Telefono</th>
+          <th scope="col">Celular</th>
+          <th scope="col">Fecha Nacimiento</th>
+          <th scope="col">Código Etnia</th>
+          <th scope="col">Fecha Incorporación Curso</th>
+          <th scope="col">Fecha Retiro</th>
+          <th scope="col">%Asistenca</th>
+          <th scope="col">Promedio Final</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25757887</td>
+          <td>9</td>
+          <td>M</td>
+          <td>CARLOS GERMÁN</td>
+          <td>GUTIERREZ</td>
+          <td>LOYOLA</td>
+          <td></td>
+          <td>ANTOFAGASTA</td>
+          <td>2101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-05-06</td>
+          <td>11</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>26140068</td>
+          <td>5</td>
+          <td>F</td>
+          <td>AMPARO ANAHIS</td>
+          <td>TAPIA</td>
+          <td>CHAPAS</td>
+          <td>AVENIDA GENERAL VELASQUEZ 1043, PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>8934173</td>
+          <td>2018-02-22</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25783134</td>
+          <td>5</td>
+          <td>M</td>
+          <td>VICENTE BALTAZAR</td>
+          <td>FREIRE</td>
+          <td>AGUIRRE</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-05-17</td>
+          <td>11</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25794550</td>
+          <td>2</td>
+          <td>F</td>
+          <td>EDURNE</td>
+          <td>DÍAZ</td>
+          <td>LOZANO</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-05-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25762952</td>
+          <td>K</td>
+          <td>M</td>
+          <td>EMIR ALÍ</td>
+          <td>SANCHEZ</td>
+          <td>PEREZ</td>
+          <td>AVENIDA CENTRAL 1365 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>46931045</td>
+          <td>2017-05-03</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25967143</td>
+          <td>4</td>
+          <td>M</td>
+          <td>AGUSTÍN MAXIMILIANO</td>
+          <td>VARAS</td>
+          <td>FERNÁNDEZ</td>
+          <td>CAMINO VIEJO, LA LAGUNA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>72602425</td>
+          <td>2017-10-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25910510</td>
+          <td>2</td>
+          <td>F</td>
+          <td>AYLÉN SOFÍA</td>
+          <td>TEJADA</td>
+          <td>TAPIA</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-09-15</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>26076427</td>
+          <td>6</td>
+          <td>M</td>
+          <td>VALENTÍN ANDRÉS</td>
+          <td>VILLARROEL</td>
+          <td>CALDERÓN</td>
+          <td>CARRETERA F-30 POBLACION LOS PESCADORES</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>97732088</td>
+          <td>2018-01-14</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>26122052</td>
+          <td>0</td>
+          <td>F</td>
+          <td>SAMANTHA MAGDALENA</td>
+          <td>GÓMEZ</td>
+          <td>ESCOBAR</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2018-02-09</td>
+          <td>11</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25949169</td>
+          <td>K</td>
+          <td>M</td>
+          <td>SEBASTIAN MATTEO</td>
+          <td>VALENZUELA</td>
+          <td>GONZÁLEZ</td>
+          <td>PASAJE ZAPALLAR NUMERO 15 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>99353458</td>
+          <td>2017-10-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25797097</td>
+          <td>3</td>
+          <td>F</td>
+          <td>LEONOR PAULINA</td>
+          <td>VILLARROEL</td>
+          <td>ESPINOZA</td>
+          <td>CARRETERA F 30 EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>79484954</td>
+          <td>2017-06-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25905426</td>
+          <td>5</td>
+          <td>M</td>
+          <td>LEONARDO JULIÁN</td>
+          <td>OBREGÓN</td>
+          <td>ESPINOZA</td>
+          <td>CAMINO INTERNACIONAL PARCELA LOS PERALES</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>7311798</td>
+          <td>2017-09-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>26010341</td>
+          <td>5</td>
+          <td>F</td>
+          <td>RAFAELA ANAHIS</td>
+          <td>OLIVARES</td>
+          <td>TORRES</td>
+          <td>COND. LOS CANELOS N°88, PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>TORRES.CRISTALMAYRA@GMAIL.COM</td>
+          <td></td>
+          <td>95002558</td>
+          <td>2017-11-27</td>
+          <td>0</td>
+          <td>2022-03-18</td>
+          <td>1900-01-01</td>
+          <td>100</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>100595549</td>
+          <td>8</td>
+          <td>M</td>
+          <td>DANIEL EDUARDO</td>
+          <td>HEREDIA</td>
+          <td>SALMERON</td>
+          <td></td>
+          <td>VIÑA DEL MAR</td>
+          <td>5109</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-11-29</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25939854</td>
+          <td>1</td>
+          <td>F</td>
+          <td>SOFÍA CAROLINA</td>
+          <td>CALDERÓN</td>
+          <td>VALENZUELA</td>
+          <td>LOS TOPACIOS</td>
+          <td>QUILPUÉ</td>
+          <td>5801</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-10-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25832753</td>
+          <td>5</td>
+          <td>F</td>
+          <td>AMPARO ELENA</td>
+          <td>LILLO</td>
+          <td>GONZÁLEZ</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-07-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25838867</td>
+          <td>4</td>
+          <td>M</td>
+          <td>SANTIAGO</td>
+          <td>GALVIS</td>
+          <td>MATUS</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-07-16</td>
+          <td>11</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>26004833</td>
+          <td>3</td>
+          <td>F</td>
+          <td>ÁMBAR HERMINIA</td>
+          <td>VÁSQUEZ</td>
+          <td>PÉREZ</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-11-26</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25830889</td>
+          <td>1</td>
+          <td>M</td>
+          <td>MATEO ALONSO</td>
+          <td>CASTRO</td>
+          <td>ROBLES</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-07-05</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>4</td>
+          <td>1er nivel de Transición (Pre-kinder)</td>
+          <td>A</td>
+          <td>25845692</td>
+          <td>0</td>
+          <td>F</td>
+          <td>SIMONA</td>
+          <td>FIGALLO</td>
+          <td>SALAS</td>
+          <td></td>
+          <td>LAS CONDES</td>
+          <td>13114</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-07-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25702596</td>
+          <td>9</td>
+          <td>F</td>
+          <td>ANTONIA BELÉN</td>
+          <td>ORELLANA</td>
+          <td>SANZANA</td>
+          <td>PSAJE EL MAITEN/ VILLA ESPERANZA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>71822064</td>
+          <td>2017-03-11</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25701788</td>
+          <td>5</td>
+          <td>M</td>
+          <td>SIMÓN EMILIO</td>
+          <td>ACEVEDO</td>
+          <td>NEUMANN</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-03-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25433616</td>
+          <td>5</td>
+          <td>F</td>
+          <td>EMILIA PAZ ALEJANDRA</td>
+          <td>ALLENDES</td>
+          <td>PÉREZ</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-06-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25433857</td>
+          <td>5</td>
+          <td>F</td>
+          <td>YANELLA PASCAL</td>
+          <td>DUAMANTE</td>
+          <td>SAAVEDRA</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-07-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25480301</td>
+          <td>4</td>
+          <td>F</td>
+          <td>SOFÍA TRINIDAD</td>
+          <td>MATURANA</td>
+          <td>BORDONES</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-08-18</td>
+          <td>11</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25467468</td>
+          <td>0</td>
+          <td>M</td>
+          <td>EMILIANO VALENTÍN</td>
+          <td>PEREIRA</td>
+          <td>CÁRDENAS</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-07-24</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25665743</td>
+          <td>0</td>
+          <td>M</td>
+          <td>AGUSTÍN</td>
+          <td>RIVERA</td>
+          <td>ABARCA</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-02-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25668874</td>
+          <td>3</td>
+          <td>F</td>
+          <td>MÍA AGUSTINA</td>
+          <td>SÁNCHEZ</td>
+          <td>PEÑA</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-02-12</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>100523066</td>
+          <td>3</td>
+          <td>F</td>
+          <td>wilkeys</td>
+          <td>castillo</td>
+          <td>saavedra</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-01-23</td>
+          <td>0</td>
+          <td>2022-03-30</td>
+          <td>1900-01-01</td>
+          <td>100</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25694113</td>
+          <td>9</td>
+          <td>F</td>
+          <td>MATILDE</td>
+          <td>OYANADER</td>
+          <td>MADRID</td>
+          <td></td>
+          <td>QUILPUÉ</td>
+          <td>5801</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-03-07</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25504005</td>
+          <td>7</td>
+          <td>M</td>
+          <td>MÁXIMO NICOLÁS</td>
+          <td>GONZÁLEZ</td>
+          <td>YÁÑEZ</td>
+          <td>PEDRO DE CORDOVA</td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td>79626842</td>
+          <td>2016-09-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25721913</td>
+          <td>5</td>
+          <td>M</td>
+          <td>CLEMENTE LEÓN</td>
+          <td>ERCOLE</td>
+          <td>OTÁROLA</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-03-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25606812</td>
+          <td>5</td>
+          <td>F</td>
+          <td>LUCIANA AMPARO</td>
+          <td>REYES</td>
+          <td>CISTERNAS</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-12-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25521119</td>
+          <td>6</td>
+          <td>F</td>
+          <td>VALENTINA SAKURA ANAÍS</td>
+          <td>SEPÚLVEDA</td>
+          <td>SALINAS</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-09-26</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25542250</td>
+          <td>2</td>
+          <td>F</td>
+          <td>MATILDA CONSTANZA</td>
+          <td>VALDÉS</td>
+          <td>MARÍN</td>
+          <td>LAS ARALIAS 18695</td>
+          <td>MAIPÚ</td>
+          <td>13119</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-09-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2° nivel de Transición (Kinder)</td>
+          <td>A</td>
+          <td>25656104</td>
+          <td>2</td>
+          <td>F</td>
+          <td>EYUL KATALINA</td>
+          <td>ARZAPALO</td>
+          <td>PUENTE</td>
+          <td></td>
+          <td>SAN RAMÓN</td>
+          <td>13131</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2017-01-28</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25295603</td>
+          <td>4</td>
+          <td>M</td>
+          <td>MATÍAS ALEJANDRO</td>
+          <td>ARRIAGADA</td>
+          <td>COFRÉ</td>
+          <td>TEATINOS</td>
+          <td>ANTOFAGASTA</td>
+          <td>2101</td>
+          <td>ANY_LUISI@HOTMAIL.COM</td>
+          <td></td>
+          <td>59772544</td>
+          <td>2016-02-23</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25260290</td>
+          <td>9</td>
+          <td>F</td>
+          <td>ARANTZA ANDREA</td>
+          <td>PALMA</td>
+          <td>ALTAMIRANO</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-01-14</td>
+          <td>11</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>24976399</td>
+          <td>3</td>
+          <td>M</td>
+          <td>MARTIN IGNACIO</td>
+          <td>GALLARDO</td>
+          <td>BAZÁEZ</td>
+          <td>CAMINO POTRERILLO S/N EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-04-14</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25072831</td>
+          <td>K</td>
+          <td>F</td>
+          <td>EMILIA PAZ</td>
+          <td>RAMÍREZ</td>
+          <td>VICENCIO</td>
+          <td>PADRE ENRIQUE DEL RIO S/N MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-08-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25290587</td>
+          <td>1</td>
+          <td>M</td>
+          <td>JULIO ARTURO JESÚS</td>
+          <td>SAN MARTIN</td>
+          <td>GOMEZ</td>
+          <td>CERRO TACNA PASAJE LAS VIOLETAS</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-02-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25019318</td>
+          <td>1</td>
+          <td>F</td>
+          <td>ROCÍO AYLEEN</td>
+          <td>VÁSQUEZ</td>
+          <td>AMAS</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-06-19</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25336039</td>
+          <td>9</td>
+          <td>F</td>
+          <td>CELESTE ANASTACIA</td>
+          <td>SEPÚLVEDA</td>
+          <td>ROSALES</td>
+          <td>POBL. CRUZ DEL LLANO, D ALMAGRO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>ELIDETHAYLIN16@GMAIL.COM</td>
+          <td></td>
+          <td>47131142</td>
+          <td>2016-03-26</td>
+          <td>11</td>
+          <td>2022-03-14</td>
+          <td>1900-01-01</td>
+          <td>100</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25037880</td>
+          <td>7</td>
+          <td>F</td>
+          <td>MAIRA DANAE</td>
+          <td>ARREDONDO</td>
+          <td>CERDA</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-07-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25302368</td>
+          <td>6</td>
+          <td>M</td>
+          <td>CRISTÓBAL IVAN</td>
+          <td>BUGUEÑO</td>
+          <td>SILVA</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-02-22</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25640140</td>
+          <td>1</td>
+          <td>F</td>
+          <td>MARINA</td>
+          <td>DIAZ</td>
+          <td>LOZANO</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-11-02</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25189144</td>
+          <td>3</td>
+          <td>F</td>
+          <td>EMMA JAVIERA ELENA</td>
+          <td>LAGOS</td>
+          <td>DÍAZ</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-11-04</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25250893</td>
+          <td>7</td>
+          <td>M</td>
+          <td>GABRIEL ANDRÉS</td>
+          <td>MORALES</td>
+          <td>BETH</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-01-04</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25226490</td>
+          <td>6</td>
+          <td>F</td>
+          <td>COLOMBA MILLICENT FIORELLA</td>
+          <td>NÚÑEZ</td>
+          <td>LEPE</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-12-07</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25320418</td>
+          <td>4</td>
+          <td>F</td>
+          <td>ANY RAYEN</td>
+          <td>PAIRICÁN</td>
+          <td>MALDONADO</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2016-03-14</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>24984691</td>
+          <td>0</td>
+          <td>M</td>
+          <td>FELIPE ALEJANDRO</td>
+          <td>RAMÍREZ</td>
+          <td>ARAVENA</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-05-16</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25038414</td>
+          <td>9</td>
+          <td>M</td>
+          <td>AGUSTÍN ALEJANDRO</td>
+          <td>SALINAS</td>
+          <td>VERGARA</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-07-11</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25196141</td>
+          <td>7</td>
+          <td>M</td>
+          <td>MATEO ALONSO</td>
+          <td>SAN MARTÍN</td>
+          <td>JORQUERA</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-11-19</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25115326</td>
+          <td>4</td>
+          <td>M</td>
+          <td>NICOLÁS MATEO</td>
+          <td>TAPIA</td>
+          <td>OLIVARES</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-09-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25077472</td>
+          <td>9</td>
+          <td>M</td>
+          <td>THÓMAS LEÓN</td>
+          <td>TORREJÓN</td>
+          <td>LIBERONA</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-08-17</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>24949238</td>
+          <td>8</td>
+          <td>M</td>
+          <td>NICOLÁS AUGUSTO</td>
+          <td>VARGAS</td>
+          <td>DOBERTI</td>
+          <td></td>
+          <td>PEÑALOLÉN</td>
+          <td>13122</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-04-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>25174628</td>
+          <td>1</td>
+          <td>M</td>
+          <td>FERNANDO JAVIER</td>
+          <td>SEPÚLVEDA</td>
+          <td>DÍAZ</td>
+          <td></td>
+          <td>PUENTE ALTO</td>
+          <td>13201</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-10-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>1</td>
+          <td>1° básico</td>
+          <td>A</td>
+          <td>24937442</td>
+          <td>3</td>
+          <td>F</td>
+          <td>MAYTE ANAÍS</td>
+          <td>LÓPEZ</td>
+          <td>INZUNZA</td>
+          <td></td>
+          <td>PUENTE ALTO</td>
+          <td>13201</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-03-22</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24891628</td>
+          <td>1</td>
+          <td>F</td>
+          <td>ANTONELLA JESÚS</td>
+          <td>ALARCÓN</td>
+          <td>TRUJILLO</td>
+          <td>LA QUEBRADA S/N</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-02-08</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24761934</td>
+          <td>8</td>
+          <td>M</td>
+          <td>ALEXANDER EDUARDO</td>
+          <td>BARRIOS</td>
+          <td>JIMÉNEZ</td>
+          <td>VILLA EL ESFUERZO PJE. EL VALLE 158 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>89944534</td>
+          <td>2014-10-03</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24884832</td>
+          <td>4</td>
+          <td>F</td>
+          <td>CANELA PAZ</td>
+          <td>PALMA</td>
+          <td>BRAVO</td>
+          <td>CARRETERA F-30 EL RUNGUE LOTE 17</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>93785046</td>
+          <td>2015-01-27</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24754402</td>
+          <td>K</td>
+          <td>M</td>
+          <td>ALEX FERNANDO</td>
+          <td>PIUTRÍN</td>
+          <td>MARTÍNEZ</td>
+          <td>PADRE ENRIQUE DEL RIO 463 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>58995609</td>
+          <td>2014-09-30</td>
+          <td>7</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24918407</td>
+          <td>1</td>
+          <td>F</td>
+          <td>DANA</td>
+          <td>PLANES</td>
+          <td>BARRIENTOS</td>
+          <td>PADRE ENRIQUE DEL RIO 361</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>99556058</td>
+          <td>2015-03-04</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24831561</td>
+          <td>K</td>
+          <td>F</td>
+          <td>JOSEFA ISIDORA</td>
+          <td>VERGARA</td>
+          <td>LARENAS</td>
+          <td>SAN ISIDORO 51 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>54716929</td>
+          <td>2014-12-17</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24678809</td>
+          <td>K</td>
+          <td>F</td>
+          <td>SOFÍA EMILIA</td>
+          <td>VILLARROEL</td>
+          <td>OLIVARES</td>
+          <td>CONDOMINIO CAMPO ALEGRE 8 MANZANA 2 PJE 1</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>50151873</td>
+          <td>2014-07-08</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24624313</td>
+          <td>1</td>
+          <td>F</td>
+          <td>MAITTE IGNACIA</td>
+          <td>ZUMARAN</td>
+          <td>CISTERNAS</td>
+          <td>POBLACION LOS PESCADORES 21 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>76772826</td>
+          <td>2014-05-08</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24727355</td>
+          <td>7</td>
+          <td>F</td>
+          <td>EMILIA TRINIDAD</td>
+          <td>BERNAL</td>
+          <td>FIGUEROA</td>
+          <td>EL RINCÓN</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>TAMARAANGELINAOSORIOTAPIA@GMAIL.COM</td>
+          <td></td>
+          <td>30812679</td>
+          <td>2014-08-12</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24816837</td>
+          <td>4</td>
+          <td>F</td>
+          <td>EMILIA SOFÍA</td>
+          <td>CISTERNAS</td>
+          <td>OBREGÓN</td>
+          <td>CARRETERA F-30 POBLACIÓN VILLA ESPERANZA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>OBREGONPROFE@GMAIL.COM</td>
+          <td></td>
+          <td>77114693</td>
+          <td>2014-12-04</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24763838</td>
+          <td>5</td>
+          <td>M</td>
+          <td>MANUEL SALVADOR</td>
+          <td>CORTÉS</td>
+          <td>SALINAS</td>
+          <td>VILLA EL ESFUERZO PJE. EL VALLE 33 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>81941129</td>
+          <td>2014-10-08</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24693227</td>
+          <td>1</td>
+          <td>F</td>
+          <td>JOSEFINA AMIRA</td>
+          <td>ELTIT</td>
+          <td>SEGOVIA</td>
+          <td>LA FLORIDA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>ESCUELACAMPICHE@HOTMAIL.COM</td>
+          <td>974503838</td>
+          <td></td>
+          <td>2014-07-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24748567</td>
+          <td>8</td>
+          <td>F</td>
+          <td>BALLOLETT DEYANIRA</td>
+          <td>FLÁNDEZ</td>
+          <td>ROSAS</td>
+          <td>PASAJE 3 EL PERAL CHOCOTA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>77001997</td>
+          <td>2014-08-28</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24698916</td>
+          <td>8</td>
+          <td>M</td>
+          <td>SANTIAGO TOMÁS</td>
+          <td>HERMOSILLA</td>
+          <td>CONTRERAS</td>
+          <td>CARRETERA F-30 MAITENCILLO KM 37</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>94904759</td>
+          <td>2014-07-29</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>100454955</td>
+          <td>0</td>
+          <td>M</td>
+          <td>MATHIAS</td>
+          <td>MADROÑERO</td>
+          <td>SILVA</td>
+          <td>RIO DELTA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2014-12-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24720130</td>
+          <td>0</td>
+          <td>M</td>
+          <td>DAMIÁN ALEXANDER</td>
+          <td>FERNÁNDEZ</td>
+          <td>VICENCIO</td>
+          <td>CALLE LATORRE CASA 3 SANTA JULIA SUR</td>
+          <td>VIÑA DEL MAR</td>
+          <td>5109</td>
+          <td></td>
+          <td></td>
+          <td>98792584</td>
+          <td>2014-08-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24735879</td>
+          <td>K</td>
+          <td>F</td>
+          <td>MAITTE ESPERANZA</td>
+          <td>CONTRERAS</td>
+          <td>MATURANA</td>
+          <td>QUEBRADA EL POBRE 214 VALLE HERMOSO</td>
+          <td>LA LIGUA</td>
+          <td>5401</td>
+          <td></td>
+          <td></td>
+          <td>94289511</td>
+          <td>2014-09-05</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24683596</td>
+          <td>9</td>
+          <td>F</td>
+          <td>LORETA IGNACIA</td>
+          <td>CORVALÁN</td>
+          <td>LINDEMANN</td>
+          <td>AV. MARITIMA 404 DEPTO 303 PUNTA PUYAI</td>
+          <td>PAPUDO</td>
+          <td>5403</td>
+          <td>GLINDEMANN@GMAIL.COM</td>
+          <td></td>
+          <td>75290889</td>
+          <td>2014-07-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24695692</td>
+          <td>8</td>
+          <td>F</td>
+          <td>FLORENCIA SOFÍA</td>
+          <td>MALLEA</td>
+          <td>VERDEJO</td>
+          <td>BLOCK 1265 DEPTO.33 POBL. PARRASIA</td>
+          <td>SAN FELIPE</td>
+          <td>5701</td>
+          <td></td>
+          <td></td>
+          <td>73422288</td>
+          <td>2014-06-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24700291</td>
+          <td>K</td>
+          <td>F</td>
+          <td>FERNANDA IGNACIA</td>
+          <td>VERA</td>
+          <td>DÍAZ</td>
+          <td></td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2014-08-02</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24939953</td>
+          <td>1</td>
+          <td>M</td>
+          <td>SALVADOR IGNACIO</td>
+          <td>VARGAS</td>
+          <td>ESTABILE</td>
+          <td></td>
+          <td>MAIPÚ</td>
+          <td>13119</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2015-03-26</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>2</td>
+          <td>2° básico</td>
+          <td>A</td>
+          <td>24711946</td>
+          <td>9</td>
+          <td>M</td>
+          <td>SANTINO BENJAMÍN ALEJANDRO</td>
+          <td>CARRASCO</td>
+          <td>ARAYA</td>
+          <td></td>
+          <td>COLINA</td>
+          <td>13301</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2014-08-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24357869</td>
+          <td>8</td>
+          <td>M</td>
+          <td>GERMAN EDUARDO</td>
+          <td>TORRES</td>
+          <td>MALLEA</td>
+          <td></td>
+          <td>VALPARAÍSO</td>
+          <td>5101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2013-07-27</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24451809</td>
+          <td>5</td>
+          <td>F</td>
+          <td>AINHOA GERALDINA OLVIDO</td>
+          <td>ARANCIBIA</td>
+          <td>BERNAL</td>
+          <td>P FE Y ESPERANZA CASA 37 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>62052662</td>
+          <td>2013-10-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24452918</td>
+          <td>6</td>
+          <td>M</td>
+          <td>VICTOR GABRIEL</td>
+          <td>BAZAES</td>
+          <td>RAMOS</td>
+          <td>AVENIDA DEL MAR 1751</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>59350722</td>
+          <td>2013-10-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24474717</td>
+          <td>5</td>
+          <td>M</td>
+          <td>BENJAMÍN EDUARDO</td>
+          <td>BUGUEÑO</td>
+          <td>SILVA</td>
+          <td>CARRETERA F 30 EL PASO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>95686809</td>
+          <td>2013-12-05</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24395038</td>
+          <td>4</td>
+          <td>M</td>
+          <td>FACUNDO DANIEL</td>
+          <td>FERNÁNDEZ</td>
+          <td>MORALES</td>
+          <td>AVENIDA DEL MAR 4370</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>82529846</td>
+          <td>2013-09-28</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24483040</td>
+          <td>4</td>
+          <td>M</td>
+          <td>FACUNDO VALENTÍN</td>
+          <td>FIGUEROA</td>
+          <td>NEUMANN</td>
+          <td>LOS PEUMOS S/N POTRERILLOS</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>77080849</td>
+          <td>2013-12-08</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24409903</td>
+          <td>3</td>
+          <td>F</td>
+          <td>EMYLIA ANTONELLA</td>
+          <td>HERNÁNDEZ</td>
+          <td>ALTAMIRANO</td>
+          <td>COMUNIDAD SUCUPIRA, PARCELA A11 LOTE 13B PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>93023995</td>
+          <td>2013-09-07</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24519546</td>
+          <td>K</td>
+          <td>F</td>
+          <td>FRANCISCA ANTONELLA</td>
+          <td>LORCA</td>
+          <td>REYES</td>
+          <td>V. EL ESFUERZO LAS BRISAS 99</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>49244599</td>
+          <td>2014-01-27</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24293951</td>
+          <td>4</td>
+          <td>F</td>
+          <td>EMILIA ANTONIA</td>
+          <td>MACIEL</td>
+          <td>AMÉSTICA</td>
+          <td>PJE TIBURCIO ESTAY S/N EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>94913955</td>
+          <td>2013-06-03</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24467464</td>
+          <td>K</td>
+          <td>M</td>
+          <td>MAXIMILIANO ALONSO</td>
+          <td>MARTÍNEZ</td>
+          <td>AGUILAR</td>
+          <td>CALLEJÓN LOS MOLLES. EL RUNGUE.</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>BM.AGUILARTRENFO@GMAIL.COM</td>
+          <td></td>
+          <td>40051500</td>
+          <td>2013-11-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24483075</td>
+          <td>7</td>
+          <td>M</td>
+          <td>BRANCO POLANCO</td>
+          <td>QUILEÑAN</td>
+          <td>CUROTTO</td>
+          <td>AVENIDA DEL MAR 1866</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>42182087</td>
+          <td>2013-12-15</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24306662</td>
+          <td>K</td>
+          <td>M</td>
+          <td>MAURICIO ELÍAS</td>
+          <td>SALAZAR</td>
+          <td>OPORTO</td>
+          <td>AVENIDA DEL MAR 2750, MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>98898415</td>
+          <td>2013-06-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24526791</td>
+          <td>6</td>
+          <td>M</td>
+          <td>LEÓN ELÍAS ABRAHAM</td>
+          <td>GONZÁLEZ</td>
+          <td>RIQUELME</td>
+          <td></td>
+          <td>VIÑA DEL MAR</td>
+          <td>5109</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2014-01-28</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24476904</td>
+          <td>7</td>
+          <td>F</td>
+          <td>MARÍA JESÚS</td>
+          <td>MANZUR</td>
+          <td>TOLOZA</td>
+          <td>5 NORTE CON 3 PONIENTE DEPTO 44</td>
+          <td>VIÑA DEL MAR</td>
+          <td>5109</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2013-12-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24544475</td>
+          <td>3</td>
+          <td>M</td>
+          <td>FELIPE TOMÁS</td>
+          <td>VIDAL</td>
+          <td>GUTIÉRREZ</td>
+          <td></td>
+          <td>LOS ANDES</td>
+          <td>5301</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2014-02-18</td>
+          <td>0</td>
+          <td>2022-03-21</td>
+          <td>1900-01-01</td>
+          <td>100</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24549465</td>
+          <td>3</td>
+          <td>F</td>
+          <td>MARÍA IGNACIA</td>
+          <td>SANHUEZA</td>
+          <td>FERNÁNDEZ</td>
+          <td>PJE LOS AROMOS 118, CATAPILCO</td>
+          <td>ZAPALLAR</td>
+          <td>5405</td>
+          <td></td>
+          <td></td>
+          <td>97458828</td>
+          <td>2014-02-28</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24590792</td>
+          <td>3</td>
+          <td>M</td>
+          <td>ANGEL RAÚL</td>
+          <td>SANCHEZ</td>
+          <td>PEREZ</td>
+          <td>PORTUGAL 990</td>
+          <td>SANTIAGO</td>
+          <td>13101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2014-04-02</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>26594348</td>
+          <td>9</td>
+          <td>F</td>
+          <td>ABBY ANABELLA</td>
+          <td>PEÑA</td>
+          <td>MEDERO</td>
+          <td></td>
+          <td>LAS CONDES</td>
+          <td>13114</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2012-07-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>25006788</td>
+          <td>7</td>
+          <td>F</td>
+          <td>EYPRIL KATALINA</td>
+          <td>ARZAPALO</td>
+          <td>PUENTE</td>
+          <td>LIRCAY 1923</td>
+          <td>SAN RAMÓN</td>
+          <td>13131</td>
+          <td></td>
+          <td></td>
+          <td>96493666</td>
+          <td>2013-04-18</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>3</td>
+          <td>3° básico</td>
+          <td>A</td>
+          <td>24423216</td>
+          <td>7</td>
+          <td>M</td>
+          <td>FRANCO</td>
+          <td>FIGALLO</td>
+          <td>SALAS</td>
+          <td>SAN FELIX 1585 A 21</td>
+          <td>VITACURA</td>
+          <td>13132</td>
+          <td></td>
+          <td></td>
+          <td>79797520</td>
+          <td>2013-10-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24196026</td>
+          <td>9</td>
+          <td>M</td>
+          <td>MARTÍN ALEJANDRO</td>
+          <td>DELGADO</td>
+          <td>REYES</td>
+          <td>PASAJE LAS BRISAS VILLA EL ESFUERZO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>76264980</td>
+          <td>2013-02-11</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>23927872</td>
+          <td>8</td>
+          <td>F</td>
+          <td>ASTRIX AYUN SANDY</td>
+          <td>CORTÉS</td>
+          <td>SALINAS</td>
+          <td>VILLA EL ESFUERZO PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>81941129</td>
+          <td>2012-04-17</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>26741684</td>
+          <td>2</td>
+          <td>M</td>
+          <td>WILNAYKER RAFAEL</td>
+          <td>GOMEZ</td>
+          <td>MARCANO</td>
+          <td>CERRO TACNA VISTA HERMOSA S.3 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>79659313</td>
+          <td>2013-02-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24112736</td>
+          <td>2</td>
+          <td>M</td>
+          <td>LUCAS</td>
+          <td>JARA</td>
+          <td>VALENZUELA</td>
+          <td>CALLE PRINCIPAL S/N, LA LAGUNA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>96918461</td>
+          <td>2012-11-08</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24153267</td>
+          <td>4</td>
+          <td>F</td>
+          <td>NAEVIA MONSERRAT</td>
+          <td>MINAY</td>
+          <td>VÁSQUEZ</td>
+          <td>POBLACION CRUZ DEL LLANO, LAS MARGARITAS 59 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>78635015</td>
+          <td>2012-12-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>26028007</td>
+          <td>4</td>
+          <td>M</td>
+          <td>ADRIAN</td>
+          <td>PEDRIEL</td>
+          <td>DIEZ</td>
+          <td>AVENIDA DEL MAR 1134</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2012-11-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24000039</td>
+          <td>3</td>
+          <td>M</td>
+          <td>GIUSEPP ALEXANDER</td>
+          <td>RIVERA</td>
+          <td>ABARCA</td>
+          <td>PASAJE LAS BRISAS 133, PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>90380632</td>
+          <td>2012-07-07</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24168699</td>
+          <td>K</td>
+          <td>F</td>
+          <td>ANTUMALEN</td>
+          <td>ROJAS</td>
+          <td>GONZÁLEZ</td>
+          <td>CAMINO PRINCIPAL LOS MAQUIS</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2013-01-17</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24318070</td>
+          <td>8</td>
+          <td>M</td>
+          <td>JAIRO ISSAC</td>
+          <td>SALINAS</td>
+          <td>ORTEGA</td>
+          <td>CARRETERA F-30 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>65708081</td>
+          <td>2013-06-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24310451</td>
+          <td>3</td>
+          <td>M</td>
+          <td>PABLO EMILIO</td>
+          <td>SAN MARTÍN</td>
+          <td>JORQUERA</td>
+          <td>CARRETERA F-30 EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>76263283</td>
+          <td>2013-06-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>100384730</td>
+          <td>2</td>
+          <td>M</td>
+          <td>FABIAN ALESSANDRO</td>
+          <td>TORRES</td>
+          <td>ACOSTA</td>
+          <td>CAMINO VIEJO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2012-07-28</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24262193</td>
+          <td>K</td>
+          <td>F</td>
+          <td>VICTORIA PAZ</td>
+          <td>VILLARROEL</td>
+          <td>CALDERÓN</td>
+          <td>POBLACION FE Y ESPERANZA CARRETERA F-30 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>97732088</td>
+          <td>2013-04-24</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>27603590</td>
+          <td>8</td>
+          <td>M</td>
+          <td>WUILTHER ENRIQUE</td>
+          <td>CASTILLA</td>
+          <td>SAAVEDRA</td>
+          <td>AVENIDA MIRAMAR 150 HORCON</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2013-01-05</td>
+          <td>0</td>
+          <td>2022-03-21</td>
+          <td>1900-01-01</td>
+          <td>100</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>23867490</td>
+          <td>5</td>
+          <td>M</td>
+          <td>MATEO ANTONIO</td>
+          <td>MANZUR</td>
+          <td>TOLOZA</td>
+          <td>FUNDO SANTA HERMINIA LA CALERA HIJUELAS</td>
+          <td>VIÑA DEL MAR</td>
+          <td>5109</td>
+          <td></td>
+          <td>64609521</td>
+          <td></td>
+          <td>2012-02-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24095370</td>
+          <td>6</td>
+          <td>M</td>
+          <td>RODRIGO DANIEL</td>
+          <td>RAMÍREZ</td>
+          <td>RAMÍREZ</td>
+          <td>EMILIO NUÑEZ 241, POBL. ESTADIO, LA LAGUNA</td>
+          <td>ZAPALLAR</td>
+          <td>5405</td>
+          <td></td>
+          <td></td>
+          <td>98376862</td>
+          <td>2012-10-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24174454</td>
+          <td>K</td>
+          <td>F</td>
+          <td>DOMINIC ALMENDRA</td>
+          <td>NÚÑEZ</td>
+          <td>DÍAZ</td>
+          <td>AVENIDA 21 DE MAYO CONDOMINIO RIVERA DEL INCA CASA 810</td>
+          <td>QUILLOTA</td>
+          <td>5501</td>
+          <td></td>
+          <td></td>
+          <td>76196154</td>
+          <td>2013-01-16</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24222685</td>
+          <td>2</td>
+          <td>M</td>
+          <td>NICANOR LEÓN</td>
+          <td>OLMEDO</td>
+          <td>PIZARRO</td>
+          <td>PASAJE JOSÉ REBOLAR 437 VILLA MÉXICO</td>
+          <td>QUILLOTA</td>
+          <td>5501</td>
+          <td></td>
+          <td>958333297</td>
+          <td>33785979</td>
+          <td>2013-03-15</td>
+          <td>0</td>
+          <td>2022-03-21</td>
+          <td>1900-01-01</td>
+          <td>100</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24216352</td>
+          <td>4</td>
+          <td>F</td>
+          <td>EMILIA ANTONIA</td>
+          <td>MOMBERG</td>
+          <td>OJEDA</td>
+          <td>DAVID ROSAS 318 A INTERIOR</td>
+          <td>OSORNO</td>
+          <td>10301</td>
+          <td></td>
+          <td></td>
+          <td>87799589</td>
+          <td>2013-03-08</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>23537767</td>
+          <td>5</td>
+          <td>M</td>
+          <td>TOMÁS ALFONSO</td>
+          <td>REYES</td>
+          <td>FIGUEROA</td>
+          <td>AVENIDA DEL MAR</td>
+          <td>LO BARNECHEA</td>
+          <td>13115</td>
+          <td></td>
+          <td>920122218</td>
+          <td></td>
+          <td>2011-01-14</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>24091149</td>
+          <td>3</td>
+          <td>M</td>
+          <td>MATEO ALONSO</td>
+          <td>CASTILLO</td>
+          <td>FERRADA</td>
+          <td>LOS CANCILLERES 1414 DEPTO.L-13</td>
+          <td>MAIPÚ</td>
+          <td>13119</td>
+          <td></td>
+          <td></td>
+          <td>92159761</td>
+          <td>2012-10-17</td>
+          <td>7</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>100610446</td>
+          <td>7</td>
+          <td>M</td>
+          <td>JOSE VALENTINO</td>
+          <td>RENTERIA</td>
+          <td>ORTEGA</td>
+          <td></td>
+          <td>SAN RAMÓN</td>
+          <td>13131</td>
+          <td></td>
+          <td></td>
+          <td>99760465</td>
+          <td>2012-07-05</td>
+          <td>0</td>
+          <td>2022-04-04</td>
+          <td>1900-01-01</td>
+          <td>100</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>23810773</td>
+          <td>3</td>
+          <td>M</td>
+          <td>NAGUAL</td>
+          <td>GÓMEZ</td>
+          <td>MAISON</td>
+          <td></td>
+          <td>SAN BERNARDO</td>
+          <td>13401</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2011-11-27</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>2022-03-30</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>4</td>
+          <td>4° básico</td>
+          <td>A</td>
+          <td>23830703</td>
+          <td>1</td>
+          <td>M</td>
+          <td>ANGELO ALEXIS</td>
+          <td>ROJAS</td>
+          <td>CORREA</td>
+          <td></td>
+          <td>SAN BERNARDO</td>
+          <td>13401</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2011-12-26</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23949943</td>
+          <td>0</td>
+          <td>M</td>
+          <td>MAXIMILIANO SAID</td>
+          <td>VILLALÓN</td>
+          <td>VERA</td>
+          <td>CAMINO VIEJO S/N LA LAGUNA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>75492134</td>
+          <td>2012-05-02</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23847999</td>
+          <td>1</td>
+          <td>F</td>
+          <td>AGUSTINA BELÉN</td>
+          <td>ALLENDES</td>
+          <td>PÉREZ</td>
+          <td>CALLE PRINCIPAL 126 LA LAGUNA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>63079002</td>
+          <td>2011-12-29</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23821468</td>
+          <td>8</td>
+          <td>F</td>
+          <td>MAGDALENA IGNACIA</td>
+          <td>ALVARADO</td>
+          <td>MORALES</td>
+          <td>VILLA AZULINA PASAJE DALIAS 085E PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>63217837</td>
+          <td>2011-12-16</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23646426</td>
+          <td>1</td>
+          <td>F</td>
+          <td>NOELIA PAZ</td>
+          <td>ESCOBAR</td>
+          <td>FIERRO</td>
+          <td>CARRETERA F-30 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>79311213</td>
+          <td>2011-04-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23639826</td>
+          <td>9</td>
+          <td>M</td>
+          <td>VICENTE ENRIQUE</td>
+          <td>FERNÁNDEZ</td>
+          <td>VÁSQUEZ</td>
+          <td>POB. MUNICIPAL. PUCHUNCAVÍ</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>78181433</td>
+          <td>2011-05-11</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23702405</td>
+          <td>2</td>
+          <td>M</td>
+          <td>LUKAS MATEO</td>
+          <td>GALDAMES</td>
+          <td>MATTA</td>
+          <td>PASAJE EL PANTANO S/N EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>85776685</td>
+          <td>2011-07-22</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23618065</td>
+          <td>4</td>
+          <td>F</td>
+          <td>ANIKA</td>
+          <td>HERNÁNDEZ</td>
+          <td>HEVIA</td>
+          <td>CARRETERA F-30 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>66427078</td>
+          <td>2011-04-07</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23615314</td>
+          <td>2</td>
+          <td>M</td>
+          <td>PIERO PAOLO</td>
+          <td>PAREDES</td>
+          <td>ESPINOZA</td>
+          <td>EL PANTANO 159 EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>81273391</td>
+          <td>2011-04-07</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23641659</td>
+          <td>3</td>
+          <td>F</td>
+          <td>CONSTANZA ISIDORA</td>
+          <td>RODRÍGUEZ</td>
+          <td>MORALES</td>
+          <td>CARRETERA F-30 1 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>81541405</td>
+          <td>2011-05-02</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23879920</td>
+          <td>1</td>
+          <td>F</td>
+          <td>AMANDA OHIRO</td>
+          <td>ROJO</td>
+          <td>MANCILLA</td>
+          <td>LA LAGUNA N° 176 - LA LAGUNA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>68429394</td>
+          <td>2012-02-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23712596</td>
+          <td>7</td>
+          <td>F</td>
+          <td>EMILIA ANTONIA</td>
+          <td>TORRES</td>
+          <td>JERIA</td>
+          <td>VILLA EL ESFUERZO PASAJE EL MAR 57 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>95818470</td>
+          <td>2011-08-04</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23750260</td>
+          <td>4</td>
+          <td>M</td>
+          <td>BENJAMÍN ALEJANDRO</td>
+          <td>VERGARA</td>
+          <td>SOTO</td>
+          <td>CAMINO VIEJO A HORCON</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>ESCUELABGREDA@YAHOO.ES</td>
+          <td>89325520</td>
+          <td>91301034</td>
+          <td>2011-09-15</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23700240</td>
+          <td>7</td>
+          <td>M</td>
+          <td>GONZALO ANDRÉS</td>
+          <td>VICENCIO</td>
+          <td>BIRKNER</td>
+          <td>LAS ACACIAS PASAJE 2 5 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>75243068</td>
+          <td>2011-07-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23913364</td>
+          <td>9</td>
+          <td>F</td>
+          <td>MAITE ALEJANDRA</td>
+          <td>VICENCIO</td>
+          <td>MEZA</td>
+          <td>CAMPO ALEGRE, PJE DOS MANZ.2.PUCHUNCAVÍ</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>90109987</td>
+          <td>2012-03-16</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>100323242</td>
+          <td>1</td>
+          <td>M</td>
+          <td>JUAN JOSE</td>
+          <td>CABEZAS</td>
+          <td>QUIÑONES</td>
+          <td>PARCELA Nº 12 ASENTAMINETO CATAPILCO</td>
+          <td>ZAPALLAR</td>
+          <td>5405</td>
+          <td></td>
+          <td>33-2-28559</td>
+          <td></td>
+          <td>2012-03-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23721337</td>
+          <td>8</td>
+          <td>M</td>
+          <td>DIEGO ALFREDO</td>
+          <td>CORROTEA</td>
+          <td>VILLARROEL</td>
+          <td>MICHIGAN MANZANA D LOTE 1</td>
+          <td>VILLA ALEMANA</td>
+          <td>5804</td>
+          <td></td>
+          <td></td>
+          <td>72137346</td>
+          <td>2011-08-18</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23320697</td>
+          <td>0</td>
+          <td>M</td>
+          <td>THOMÁS IGNACIO</td>
+          <td>BASCUR</td>
+          <td>SÁEZ</td>
+          <td>LOS CEREZOS</td>
+          <td>HUECHURABA</td>
+          <td>13107</td>
+          <td>SAEZBETSABE31@GMAIL.COM</td>
+          <td></td>
+          <td>41217434</td>
+          <td>2010-05-14</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23816007</td>
+          <td>3</td>
+          <td>M</td>
+          <td>CRISTÓBAL MATÍAS</td>
+          <td>PIZARRO</td>
+          <td>MEZA</td>
+          <td>CAMINO DEL PAISAJE 6596 CASA36</td>
+          <td>LA FLORIDA</td>
+          <td>13110</td>
+          <td></td>
+          <td>227432326</td>
+          <td>71257569</td>
+          <td>2011-12-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23903404</td>
+          <td>7</td>
+          <td>F</td>
+          <td>BELÉN ANDREA</td>
+          <td>MABAN</td>
+          <td>GYLLEN</td>
+          <td>PUERTO DE PALOS 5267</td>
+          <td>LAS CONDES</td>
+          <td>13114</td>
+          <td></td>
+          <td></td>
+          <td>78714769</td>
+          <td>2012-03-15</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23708450</td>
+          <td>0</td>
+          <td>F</td>
+          <td>ANNEKE MAGDALENA</td>
+          <td>SEPÚLVEDA</td>
+          <td>DÍAZ</td>
+          <td>AV.CONCHA Y TORO Nº2680 DEPTO 201</td>
+          <td>PUENTE ALTO</td>
+          <td>13201</td>
+          <td></td>
+          <td>92214813</td>
+          <td>92214813</td>
+          <td>2011-08-01</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23756243</td>
+          <td>7</td>
+          <td>F</td>
+          <td>AGUSTINA IGNACIA</td>
+          <td>ERCOLE</td>
+          <td>OTAROLA</td>
+          <td>CONCHA Y TORO S/N PARCELA 44</td>
+          <td>PIRQUE</td>
+          <td>13202</td>
+          <td>INFO@CCP.CL</td>
+          <td></td>
+          <td></td>
+          <td>2011-09-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>5</td>
+          <td>5° básico</td>
+          <td>A</td>
+          <td>23668803</td>
+          <td>8</td>
+          <td>F</td>
+          <td>MARTINA IGNACIA</td>
+          <td>CORNEJO</td>
+          <td>OLIVARES</td>
+          <td>AVDA. VALPARAISO KM 12</td>
+          <td>MELIPILLA</td>
+          <td>13501</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2011-06-12</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23340985</td>
+          <td>5</td>
+          <td>F</td>
+          <td>MATILDE BEATRIZ</td>
+          <td>ROJAS</td>
+          <td>GUTIÉRREZ</td>
+          <td></td>
+          <td>VALPARAÍSO</td>
+          <td>5101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2010-05-31</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23312838</td>
+          <td>4</td>
+          <td>M</td>
+          <td>ANÍBAL ALEJANDRO</td>
+          <td>BARRIOS</td>
+          <td>JIMÉNEZ</td>
+          <td>VILLA EL ESFUERZO PJE. EL VALLE. PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>87412214</td>
+          <td>2010-05-03</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23418714</td>
+          <td>7</td>
+          <td>M</td>
+          <td>ALEXIS MATÍAS</td>
+          <td>BAZÁEZ</td>
+          <td>TORRES</td>
+          <td>CALLE LA TORRE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2010-07-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23362368</td>
+          <td>7</td>
+          <td>F</td>
+          <td>FRANCISCA ALEXANDRA</td>
+          <td>BERNAL</td>
+          <td>FIGUEROA</td>
+          <td>PRINCIPAL S/N EL RINCÓN</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>90134929</td>
+          <td>2010-07-01</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>100454951</td>
+          <td>8</td>
+          <td>M</td>
+          <td>LAURA SOFIA</td>
+          <td>CORREA</td>
+          <td>SILVA</td>
+          <td>RIO DELTA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2010-09-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23339761</td>
+          <td>K</td>
+          <td>M</td>
+          <td>AGUSTÍN DOUGLAS</td>
+          <td>CORTÉS</td>
+          <td>SALINAS</td>
+          <td>JOSE MANUEL URETA S/N. CAMPICHE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>81941129</td>
+          <td>2010-05-17</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23442711</td>
+          <td>3</td>
+          <td>F</td>
+          <td>SIOMARA DANAIS</td>
+          <td>DÍAZ</td>
+          <td>JIMÉNEZ</td>
+          <td>VILLA EL ESFUERZO. EL VALLE. PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>53664086</td>
+          <td>2010-09-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23616389</td>
+          <td>K</td>
+          <td>F</td>
+          <td>BRUNA ISABELLA</td>
+          <td>ESCOBAR</td>
+          <td>ALVARADO</td>
+          <td>PATRICIO LINCH PJE PUNTA GRUESA VENTANA ALTO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>53675664</td>
+          <td>2011-04-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23624013</td>
+          <td>4</td>
+          <td>M</td>
+          <td>AXCEL MAXIMILIANO</td>
+          <td>FLÁNDEZ</td>
+          <td>ROSAS</td>
+          <td>CARRETERA F 30 EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>77001997</td>
+          <td>2011-04-04</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23273195</td>
+          <td>8</td>
+          <td>F</td>
+          <td>MARÍA FLORENCIA</td>
+          <td>LARA</td>
+          <td>ALCALDE</td>
+          <td>AVENIDA DEL MAR 4370</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2010-02-24</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23359799</td>
+          <td>6</td>
+          <td>F</td>
+          <td>DOMINIQUE ADRIANA</td>
+          <td>PIUTRÍN</td>
+          <td>MARTÍNEZ</td>
+          <td>PADRE ENRIQUE DEL RIO 463 MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>58995609</td>
+          <td>2010-06-27</td>
+          <td>7</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23478145</td>
+          <td>6</td>
+          <td>M</td>
+          <td>ISAIAS EMMANUEL</td>
+          <td>PLANES</td>
+          <td>BARRIENTOS</td>
+          <td>PADRE ENRIQUE DEL RIO MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>POSTAMAITENCILLO@GMAIL.COM</td>
+          <td></td>
+          <td>95816745</td>
+          <td>2010-10-27</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23344254</td>
+          <td>2</td>
+          <td>F</td>
+          <td>EMILIA CONSUELO</td>
+          <td>PLATT</td>
+          <td>BAHAMONDES</td>
+          <td>CARRETERA F-30 MAITENCILLO KM 35</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2010-06-03</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23317857</td>
+          <td>8</td>
+          <td>M</td>
+          <td>VÍCTOR ANDRÉS</td>
+          <td>SALAS</td>
+          <td>CISTERNAS</td>
+          <td>POB. DON SERGIO.LAS AZUCENAS. PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>78716349</td>
+          <td>2010-05-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23378755</td>
+          <td>8</td>
+          <td>M</td>
+          <td>LUIS PATRICIO</td>
+          <td>VERA</td>
+          <td>BAZAES</td>
+          <td>VILLA EL ESFUERZO, PJE EL VALLE 142 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>63305005</td>
+          <td>2010-07-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23445945</td>
+          <td>7</td>
+          <td>F</td>
+          <td>CARLA CELESTE</td>
+          <td>VERA</td>
+          <td>SALAZAR</td>
+          <td>EL POTRERILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>83268913</td>
+          <td>2010-09-22</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23578117</td>
+          <td>4</td>
+          <td>M</td>
+          <td>MARIANO ANDRÉS</td>
+          <td>VERGARA</td>
+          <td>GALLARDO</td>
+          <td>CARRETERA F 30 EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>93258858</td>
+          <td>2011-03-07</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23679279</td>
+          <td>K</td>
+          <td>M</td>
+          <td>CRISTÓBAL EDUARDO</td>
+          <td>VERGARA</td>
+          <td>LARENAS</td>
+          <td>CAMINO VIEJO S/N MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>84312484</td>
+          <td>2011-06-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23467592</td>
+          <td>3</td>
+          <td>F</td>
+          <td>FLORENCIA IGNACIA</td>
+          <td>VILLARROEL</td>
+          <td>RAMÍREZ</td>
+          <td>CALLE EMILIO NUÑEZ 241, LAGUNA ZAPALLAR</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>83768626</td>
+          <td>2010-10-29</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23467569</td>
+          <td>9</td>
+          <td>M</td>
+          <td>MAXIMILIANO DAVID</td>
+          <td>VILLARROEL</td>
+          <td>RAMÍREZ</td>
+          <td>CALLE EMILIO NUÑEZ 241, LAGUNA ZAPALLAR</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>83768626</td>
+          <td>2010-10-29</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>22793921</td>
+          <td>4</td>
+          <td>M</td>
+          <td>MARTÍN ANDRÉS</td>
+          <td>ESTAY</td>
+          <td>LEAL</td>
+          <td>PASAJE EL PANTANO S/N EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td>76337973</td>
+          <td>76337973</td>
+          <td>2008-08-13</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>6</td>
+          <td>6° básico</td>
+          <td>A</td>
+          <td>23511273</td>
+          <td>6</td>
+          <td>F</td>
+          <td>ALONDRA BELÉN</td>
+          <td>LÓPEZ</td>
+          <td>INZUNZA</td>
+          <td></td>
+          <td>PUENTE ALTO</td>
+          <td>13201</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2010-11-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23137690</td>
+          <td>9</td>
+          <td>F</td>
+          <td>MARTA CAROLINA</td>
+          <td>OLIVARES</td>
+          <td>LOYOLA</td>
+          <td></td>
+          <td>ANTOFAGASTA</td>
+          <td>2101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-09-29</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>22932844</td>
+          <td>1</td>
+          <td>F</td>
+          <td>IGNACIA BELÉN</td>
+          <td>FERNÁNDEZ</td>
+          <td>ESPINOZA</td>
+          <td>CALLE EL PROGRESO LOTE 46</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>76069318</td>
+          <td>2009-01-14</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>22862023</td>
+          <td>8</td>
+          <td>M</td>
+          <td>MATÍAS IGNACIO</td>
+          <td>DELGADO</td>
+          <td>REYES</td>
+          <td>POBLACION VILLA EL ESFUERZO CALLE LAS BRISAS</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>57014975</td>
+          <td>2008-11-06</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>22786410</td>
+          <td>9</td>
+          <td>M</td>
+          <td>JHON STEVEN</td>
+          <td>CORTÉS</td>
+          <td>SALINAS</td>
+          <td>JUAN MANUEL URETA. CAMPICHE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>81941129</td>
+          <td>2008-08-01</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23140860</td>
+          <td>6</td>
+          <td>F</td>
+          <td>RAFAELLA ANTONIA</td>
+          <td>ESCOBAR</td>
+          <td>FIERRO</td>
+          <td>CARRETERA F-30 14, MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>79312133</td>
+          <td>2009-09-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23180920</td>
+          <td>1</td>
+          <td>M</td>
+          <td>GABRIEL ALEXIS</td>
+          <td>GONZALEZ</td>
+          <td>GONZÁLEZ</td>
+          <td>POBLACION FE Y ESPERANZA, PASAJE VENTANA 17</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>78905501</td>
+          <td>2009-11-18</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23148554</td>
+          <td>6</td>
+          <td>F</td>
+          <td>ISIDORA IGNACIA</td>
+          <td>JIMÉNEZ</td>
+          <td>ALTAMIRANO</td>
+          <td>PASAJE SUCUPIRA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>COLEGIOMADRIGAL@HOTMAIL.COM</td>
+          <td></td>
+          <td>93655804</td>
+          <td>2009-10-17</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>22683594</td>
+          <td>6</td>
+          <td>M</td>
+          <td>BENJAMÍN ANDRÉS</td>
+          <td>MORENO</td>
+          <td>GYLLEN</td>
+          <td>ISIDORA GAETE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>46809953</td>
+          <td>2008-03-31</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23114970</td>
+          <td>8</td>
+          <td>M</td>
+          <td>MATÍAS ANDRÉS</td>
+          <td>PALMA</td>
+          <td>ALTAMIRANO</td>
+          <td>CAMINO SUCUPIRA LOTE 11 B12</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>95622147</td>
+          <td>2009-09-01</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23189182</td>
+          <td>K</td>
+          <td>M</td>
+          <td>VICENTE DANIEL</td>
+          <td>RAMÍREZ</td>
+          <td>ARAVENA</td>
+          <td></td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-11-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23157472</td>
+          <td>7</td>
+          <td>F</td>
+          <td>ANTONIA BELÉN</td>
+          <td>RAMÍREZ</td>
+          <td>VICENCIO</td>
+          <td>PADRE ENRIQUE DEL RIO S/N MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>54216251</td>
+          <td>2009-10-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>22908382</td>
+          <td>1</td>
+          <td>F</td>
+          <td>ANAÍS IGNACIA</td>
+          <td>RODRÍGUEZ</td>
+          <td>MORALES</td>
+          <td>CARRETERA F-30 S/N MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>81541405</td>
+          <td>2008-12-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23167212</td>
+          <td>5</td>
+          <td>F</td>
+          <td>ISIDORA MONSERRAT</td>
+          <td>VERA</td>
+          <td>FERNÁNDEZ</td>
+          <td>PASAJE LOS MOLLES S/N MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>92413487</td>
+          <td>2009-11-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23180808</td>
+          <td>6</td>
+          <td>M</td>
+          <td>JAVIER ANDRÉS</td>
+          <td>ARAYA</td>
+          <td>MUÑOZ</td>
+          <td>RUPERTO BERNAL. PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>84091170</td>
+          <td>2009-11-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23361237</td>
+          <td>5</td>
+          <td>F</td>
+          <td>KATHERINE BELÉN</td>
+          <td>ARIAS</td>
+          <td>VALDEBENITO</td>
+          <td>AVENIDA DEL MAR 3560, MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td>2771009</td>
+          <td>65591140</td>
+          <td>2010-06-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23126215</td>
+          <td>6</td>
+          <td>M</td>
+          <td>JORDÁN MAURICIO</td>
+          <td>COLET</td>
+          <td>DURÁN</td>
+          <td>CARRETERA F-30 EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>95005507</td>
+          <td>2009-09-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23303695</td>
+          <td>1</td>
+          <td>M</td>
+          <td>RENATO AMARO</td>
+          <td>OLIVARES</td>
+          <td>SOLÍS</td>
+          <td>EL VATICANO 170, DEPTO12 VILLA JUAN PABLO SEGUNDO</td>
+          <td>LA LIGUA</td>
+          <td>5401</td>
+          <td></td>
+          <td>83121276</td>
+          <td></td>
+          <td>2010-04-18</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23251304</td>
+          <td>7</td>
+          <td>F</td>
+          <td>SAMANTA TRINIDAD</td>
+          <td>CORROTEA</td>
+          <td>VILLARROEL</td>
+          <td>MICHIGAN MANZANA D LOTE 1</td>
+          <td>VILLA ALEMANA</td>
+          <td>5804</td>
+          <td></td>
+          <td></td>
+          <td>77458607</td>
+          <td>2010-02-16</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23032882</td>
+          <td>K</td>
+          <td>M</td>
+          <td>AMARU</td>
+          <td>PORRAS</td>
+          <td>ECHAGÜE</td>
+          <td>HOSCHTETTER</td>
+          <td>TEMUCO</td>
+          <td>9101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-06-03</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>22865206</td>
+          <td>7</td>
+          <td>M</td>
+          <td>BORIS ESTEBAN</td>
+          <td>VIZCARRA</td>
+          <td>GARCÍA</td>
+          <td>DEL SEMBRADOR 1982</td>
+          <td>LA PINTANA</td>
+          <td>13112</td>
+          <td>ESCUELACAMPICHE@GMAIL.COM</td>
+          <td>5426895</td>
+          <td>96108002</td>
+          <td>2008-11-10</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>22010861</td>
+          <td>9</td>
+          <td>M</td>
+          <td>PIER ALEXANDER</td>
+          <td>VIZCARRA</td>
+          <td>GARCÍA</td>
+          <td>EL SEMBRADOR 1982</td>
+          <td>LA PINTANA</td>
+          <td>13112</td>
+          <td>ESCUELACAMPICHE@HOTMAIL.COM</td>
+          <td>64852434</td>
+          <td></td>
+          <td>2005-12-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>24976123</td>
+          <td>0</td>
+          <td>M</td>
+          <td>LUCAS BENJAMÍN</td>
+          <td>CASTILLO</td>
+          <td>FERRADA</td>
+          <td></td>
+          <td>MAIPÚ</td>
+          <td>13119</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-07-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23064129</td>
+          <td>3</td>
+          <td>M</td>
+          <td>BENJAMÍN MANUEL</td>
+          <td>VARGAS</td>
+          <td>DOBERTI</td>
+          <td></td>
+          <td>PEÑALOLÉN</td>
+          <td>13122</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-06-27</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>7</td>
+          <td>7° básico</td>
+          <td>A</td>
+          <td>23269398</td>
+          <td>3</td>
+          <td>F</td>
+          <td>AGUSTINA TRINIDAD</td>
+          <td>PÉREZ</td>
+          <td>FUCHSLOCHER</td>
+          <td></td>
+          <td>PEÑALOLÉN</td>
+          <td>13122</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2010-03-09</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22778352</td>
+          <td>4</td>
+          <td>F</td>
+          <td>JOSEFA ANALÍS</td>
+          <td>ASTUDILLO</td>
+          <td>GONZÁLEZ</td>
+          <td>PUCALAN S/N</td>
+          <td>VALPARAÍSO</td>
+          <td>5101</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2008-07-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22783981</td>
+          <td>3</td>
+          <td>M</td>
+          <td>LUCAS GABRIEL</td>
+          <td>LÓPEZ</td>
+          <td>AGUILERA</td>
+          <td>CALLE IQUIQUE SITIO C 26, VENTANAS</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td>GABRIELA.AGUILERA.MANCILLA@GMAIL.COM</td>
+          <td></td>
+          <td>53099314</td>
+          <td>2008-07-30</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22908166</td>
+          <td>7</td>
+          <td>F</td>
+          <td>TIARE POLETT</td>
+          <td>DÍAZ</td>
+          <td>JIMÉNEZ</td>
+          <td>VILLA EL ESFUERZO, EL VALLE Nº 1 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>94657621</td>
+          <td>2008-12-22</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>23057652</td>
+          <td>1</td>
+          <td>F</td>
+          <td>GENESIS SORAYA</td>
+          <td>DUAMANTE</td>
+          <td>SAAVEDRA</td>
+          <td>AVENIDA DEL MAR</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>62863781</td>
+          <td>2009-06-24</td>
+          <td>7</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22782460</td>
+          <td>3</td>
+          <td>M</td>
+          <td>JULIÁN ALFONSO</td>
+          <td>GALDAMES</td>
+          <td>MATTA</td>
+          <td>EL PANTANAL S/N EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td>85776685</td>
+          <td></td>
+          <td>2008-07-14</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22554254</td>
+          <td>6</td>
+          <td>M</td>
+          <td>MARCIAL ANDRÉS</td>
+          <td>GALLARDO</td>
+          <td>BAZÁEZ</td>
+          <td>CAMINO A LA CANELA S/Nº EL RUNGUE PUCHUNCAVÍ</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>89462538</td>
+          <td>2007-10-02</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>23005720</td>
+          <td>6</td>
+          <td>M</td>
+          <td>SEBASTIÁN IGNACIO</td>
+          <td>HERNÁNDEZ</td>
+          <td>VERA</td>
+          <td>CAMINO VECINAL EL MEDANO S/N EL PASO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-04-18</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22897736</td>
+          <td>5</td>
+          <td>M</td>
+          <td>JOAQUÍN ARTURO</td>
+          <td>LOYOLA</td>
+          <td>ALARCÓN</td>
+          <td>CAMINO VIEJO S/N, MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>88797968</td>
+          <td>2008-12-15</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22828379</td>
+          <td>7</td>
+          <td>F</td>
+          <td>YINNA CONSTANZA BELÉN</td>
+          <td>MEJÍA</td>
+          <td>MARTÍNEZ</td>
+          <td>ALTO DEL LLANO Nº 5 PUCHUNCAVI</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>97467330</td>
+          <td>2008-08-26</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>2022-04-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>23029273</td>
+          <td>6</td>
+          <td>M</td>
+          <td>GERALD BASTIÁN</td>
+          <td>MERCADO</td>
+          <td>TORRES</td>
+          <td>JUAN MANUEL S/N CAMPICHE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>61878115</td>
+          <td>2009-05-27</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22886509</td>
+          <td>5</td>
+          <td>F</td>
+          <td>ANTONELLA CONSTANZA</td>
+          <td>NÚÑEZ</td>
+          <td>SANDOVAL</td>
+          <td>POBLACION FE Y ESPERANZA CASA 36, MAITENCILLO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>73395234</td>
+          <td>2008-11-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>23031494</td>
+          <td>2</td>
+          <td>M</td>
+          <td>CRISTIAN ALON LIBKO</td>
+          <td>PAIRICÁN</td>
+          <td>MALDONADO</td>
+          <td>CALLE EL BOLDAL Nº 3, LA LAGUNA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-05-27</td>
+          <td>7</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22821617</td>
+          <td>8</td>
+          <td>F</td>
+          <td>MILLARAY AYLEN</td>
+          <td>ROJO</td>
+          <td>SOTO</td>
+          <td>CAMINO VIEJO HORCON COMUNIDAD DE VERANEO LA GREDA</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>89325520</td>
+          <td>2008-09-16</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22729429</td>
+          <td>9</td>
+          <td>M</td>
+          <td>MATÍAS ANDRÉS</td>
+          <td>TORRES</td>
+          <td>FERNÁNDEZ</td>
+          <td>CARRETERA F30 S/N EL RUNGUE</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td></td>
+          <td>7445910</td>
+          <td>2008-05-21</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22152174</td>
+          <td>9</td>
+          <td>M</td>
+          <td>MARTÍN FERNANDO</td>
+          <td>VILLALÓN</td>
+          <td>ESPINOZA</td>
+          <td>AVENIDA LA PAZ POBLACIÓN CRUZ DEL LLANO</td>
+          <td>PUCHUNCAVÍ</td>
+          <td>5105</td>
+          <td></td>
+          <td>2791774</td>
+          <td></td>
+          <td>2006-06-19</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22824411</td>
+          <td>2</td>
+          <td>F</td>
+          <td>MARGARITA MARÍA</td>
+          <td>AHLERS</td>
+          <td>MONTERO</td>
+          <td></td>
+          <td>VIÑA DEL MAR</td>
+          <td>5109</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2008-09-11</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22778206</td>
+          <td>4</td>
+          <td>M</td>
+          <td>RODRIGO ISMAEL</td>
+          <td>CARVALLO</td>
+          <td>SUAZO</td>
+          <td>FRODDEN 05041B</td>
+          <td>QUILPUÉ</td>
+          <td>5801</td>
+          <td></td>
+          <td>2923280</td>
+          <td>88837142</td>
+          <td>2008-07-19</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22677850</td>
+          <td>0</td>
+          <td>F</td>
+          <td>DOMINGA IGNACIA</td>
+          <td>COVARRUBIAS</td>
+          <td>MORALES</td>
+          <td>RAFAEL SANZIO</td>
+          <td>LAS CONDES</td>
+          <td>13114</td>
+          <td>JESU.MORALES.ALICERA@GMAIL.COM</td>
+          <td></td>
+          <td>57389497</td>
+          <td>2008-03-20</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22980866</td>
+          <td>4</td>
+          <td>M</td>
+          <td>TOMÁS RICARDO</td>
+          <td>PIZARRO</td>
+          <td>MEZA</td>
+          <td>ESCRITOR JORGE INSTROZA</td>
+          <td>MAIPÚ</td>
+          <td>13119</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2009-03-28</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>1875</td>
+          <td>110</td>
+          <td>8</td>
+          <td>8° básico</td>
+          <td>A</td>
+          <td>22866532</td>
+          <td>0</td>
+          <td>F</td>
+          <td>AMMY IGNACIA</td>
+          <td>BARRIOS</td>
+          <td>BRAVO</td>
+          <td>INGENIERO BUDGE</td>
+          <td>SAN MIGUEL</td>
+          <td>13130</td>
+          <td></td>
+          <td></td>
+          <td>99948601</td>
+          <td>2008-09-25</td>
+          <td>0</td>
+          <td>2022-03-01</td>
+          <td>1900-01-01</td>
+          <td>0</td>
+          <td>0.0</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+  </body>
+</html>

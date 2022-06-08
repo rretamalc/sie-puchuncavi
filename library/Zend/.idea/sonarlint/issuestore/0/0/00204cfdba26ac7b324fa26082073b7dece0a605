@@ -1,0 +1,7 @@
+
+qphp:S101/"]Rename class "Zend_Auth_Adapter_DbTable" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(Φ¤ω
+M	php:S1155‡"7Use empty() to check whether the array is empty or not.(Ιÿγμ
+j	php:S3776Δ"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ά¥¨χ
+u	php:S1192±"`Define a constant instead of duplicating this literal "Zend/Auth/Adapter/Exception.php" 3 times.(μ­™w
+€	php:S1488"cImmediately return this expression instead of assigning it to the temporary variable "$authResult".(¨ύ§»8–”Φ…/
+e	php:S1142Δ"OReduce the number of returns of this function 4, down to the maximum allowed 3.(ά¥¨χ

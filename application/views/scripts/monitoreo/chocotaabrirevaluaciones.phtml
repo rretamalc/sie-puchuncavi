@@ -1,0 +1,240 @@
+<?php
+
+$idtipoev = new Zend_Session_Namespace('tipoevaluacion');
+$idtevalucacion = $idtipoev->tipoevaluacion;
+
+$codigos = new Zend_Session_Namespace('codigo');
+$codigo = $codigos->codigo;
+
+$nombrecurso = new Zend_Session_Namespace('nombre_curso');
+$nombre_curso = $nombrecurso->nombre_curso;
+
+$idcurso = new Zend_Session_Namespace('id_curso');
+$idCurso = $idcurso->id_curso;
+
+$iddetallecurso = new Zend_Session_Namespace('id_detalle_curso');
+$id_detalle_curso = $iddetallecurso->id_detalle_curso;
+
+$cargos = new Zend_Session_NameSpace("cargo");
+$rol = $cargos->cargo;
+
+$ingreson = new Zend_Session_Namespace('ingresonota');
+$ingresonota = $ingreson->ingresonota;
+
+$nivelcurso = new Zend_Session_Namespace('nivel_curso');
+$nivel_curso = $nivelcurso->nivel_curso;
+
+
+$periodo = new Zend_Session_Namespace('periodo');
+$idPeriodo = $periodo->periodo;
+
+
+?>
+
+<div id="monitoreo-chocota">
+    <div v-if="codigo === 110" >
+
+        <div class="d-flex justify-content-left">
+            <b-button
+                class="button medium"
+                href="<?php echo $this->url(array('controller' => 'Libro',
+                    'action' => 'monitoreo'), null, TRUE);?>"
+            >
+                <i class="icon-hand-left"></i>
+                Volver a Notas
+            </b-button>
+
+            <b-button
+                class="button medium blue ml-2"
+                :title="'Ir a Evaluaciones Formativas de '+nombreNota"
+                @click="goToGuiaFormativa(idEvaluacion, nombreNota)"
+            >
+                <i class="icon-hand-up"></i>
+                Evaluaciones Formativas
+            </b-button>
+
+            <!-- NUEVA EVALUACIÓN -->
+            <btn-modal
+              class="text-center ml-2"
+              clases="btn green"
+              tipo="Crear"
+              texto="Evaluación Sumativa"
+              nombre_modal="modal-create-evaluacion"
+            />
+
+        </div>
+        <div>
+          <!--
+            TODO: IMPORTANTE!
+            EL modal se puso en un div distinto de su btn,
+            ya que no se mostraba estando en el mismo div
+          -->
+          <evaluacion-create
+            v-if="tabAsignatura !== null"
+            modulo="Evaluación"
+            nombre_modal="modal-create-evaluacion"
+            tipo_evaluacion="Sumativa"
+            :id_tipo_evaluacion="idTipoEvalucacion"
+            :id_asignatura_selected="idAsignaturaSelected"
+            :id_curso="idCurso"
+            :nombre_asignatura="nombreAsignaturaSelected"
+            :id_periodo="idPeriodo"
+            :id_evaluacion="Number(idEvaluacion)"
+          />
+        </div>
+
+        <!-- TITULO -->
+        <h4
+          class="text-left mt-3"
+        >
+          Evaluaciones Monitoreo: <?php echo $nombre_curso ?> / {{ asignaturas[0].nombreAsignatura }}
+        </h4>
+        <h5
+          class="text-left mb-4"
+        >
+
+           {{ nombreNota }}: {{ contenido }}
+        </h5>
+
+        <div class="mt-4">
+            <b-tabs
+                content-class="p-0"
+                v-model="tabAsignatura"
+            >
+                <b-tab
+                    v-for="(asignatura, index) in asignaturas"
+                    v-bind:key="index"
+                    :value="asignatura.idAsignatura"
+                    :title="asignatura.nombreAsignatura"
+                    :active="index == 0"
+                >
+                    <monitoreo
+                        v-if="alumnosCurso && tabAsignatura !== null"
+                        :alumnos_curso="alumnosCurso"
+                        :id_evaluacion="Number(idEvaluacion)"
+                        :id_tipo_evaluacion="idTipoEvalucacion"
+                        :id_asignatura="asignatura.idAsignatura"
+                        :id_periodo="idPeriodo"
+                        :id_curso="idCurso"
+                        :id_asignatura_selected="idAsignaturaSelected"
+                        :nombre_asignatura="nombreAsignaturaSelected"
+                        :nombre_contenido="contenido"
+                        :nombre_nota="nombreNota"
+                    />
+
+                </b-tab>
+            </b-tabs>
+        </div>
+
+    </div>
+    <!--
+    <div v-else >
+        <div class="d-flex justify-content-left">
+            <a
+                class="button medium"
+                href="<?php echo $this->url(array('controller' => 'Libro',
+                    'action' => 'abrir', 'id' => $id_curso), null, TRUE);?>"
+            >
+                <i class="icon-hand-left"></i>
+                Volver
+            </a>
+             <monitoreo-pre
+                v-if="alumnosCurso"
+                :alumnos_curso="alumnosCurso"
+            />
+        </div>
+    </div>-->
+
+</div>
+
+<script>
+
+  new Vue({
+    el: "#monitoreo-chocota",
+    alumnos,
+    evaluaciones,
+    notas,
+    data: {
+      idPeriodo: <?php echo $idPeriodo ?>,
+      idCurso: <?php echo $idCurso ?>,
+      codigo: <?php echo $codigo ?>,
+      rol: <?php echo $rol ?>,
+      idTipoEvalucacion: <?php echo $idtevalucacion ?>,
+      contenido: "<?php echo $this->evaluacion[0]['contenido'] ?>",
+      idAsignaturaSelected: <?php echo $this->evaluacion[0]['idAsignatura'] ?>,
+      nombreNota: "<?php echo $this->nombre_nota ?>",
+      idEvaluacion: "<?php echo $this->id_evaluacion ?>",
+      tabAsignatura: null,
+      nombreAsignaturaSelected: null,
+      asignaturas: [],
+      alumnosCurso: [],
+      data: [],
+      evaluacion: [],
+    },
+    computed: {
+      cargaTiempo() {
+        return typeof this.evaluacion.tiempo !== 'undefined'
+      },
+    },
+    watch: {
+      tabAsignatura() {
+        this.changeAsignatura()
+      },
+    },
+    created() {
+      <?php
+        $largoAlumnos = count($this->alumnos);
+        for ($i = 0; $i < $largoAlumnos; $i++) {
+            $alumno = $this->alumnos[$i];
+      ?>
+            this.setAlumnos('<?php echo json_encode($alumno)?>')
+      <?php
+        }
+        $largoAsignaturas = count($this->listaasignatura);
+        for ($a = 0; $a < $largoAsignaturas; $a++) {
+          $asignatura = $this->listaasignatura[$a];
+      ?>
+          this.setAsignaturas('<?php echo json_encode($asignatura)?>')
+      <?php
+        }
+      ?>
+      this.setData(
+        <?php echo $idPeriodo ?>,
+        <?php echo $idCurso ?>,
+        <?php echo $this->id_evaluacion ?>
+      )
+      guias.dispatch('fetchGuiasCurso', this.data[0])
+      notas.dispatch('fetchNotasGuias', this.data[0])
+      evaluaciones.dispatch('fetchEvaluacionesCurso', this.data[0])
+    },
+    methods: {
+      goToGuiaFormativa(idEvaluacion, nombreNota) {
+        const baseUrl = index.getters.api
+        console.log('nombreNota :', nombreNota)
+        const data = `?idEvaluacion=${idEvaluacion}&nombreNota=${nombreNota}`
+        window.location.href = baseUrl+'Monitoreo/chocotaabrirformativa/'+data;
+      },
+      setAsignaturas(asignatura) {
+        const asignaturaPush = JSON.parse(asignatura);
+        if (Number(asignaturaPush.idAsignatura) === Number(this.idAsignaturaSelected)) {
+          this.asignaturas.push(asignaturaPush)
+        }
+      },
+      setAlumnos(alumno) {
+        const alumnoPush = JSON.parse(alumno);
+        this.alumnosCurso.push(alumnoPush)
+      },
+      changeAsignatura() {
+        this.idAsignaturaSelected = this.asignaturas[this.tabAsignatura]['idAsignatura']
+        this.nombreAsignaturaSelected = this.asignaturas[this.tabAsignatura]['nombreAsignatura']
+      },
+      setData(idPeriodo, idCurso, idEvaluacion) {
+        this.data.push({
+          idPeriodo,
+          idCurso,
+          idEvaluacion,
+        })
+      },
+    },
+  })
+</script>

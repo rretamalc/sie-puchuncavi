@@ -1,0 +1,21 @@
+
+pphp:S101+"\Rename class "Zend_Db_Adapter_Abstract" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(çìàº
+d	php:S1142Û"OReduce the number of returns of this function 5, down to the maximum allowed 3.(êùÆ
+j	php:S3776¤"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(»µü
+j	php:S3776æ"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÂûÎŸ
+o	php:S3776Î"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(™«µıÿÿÿÿ
+o	php:S3776í"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(ÍüÆıÿÿÿÿ
+s	php:S1192³"^Define a constant instead of duplicating this literal "Zend/Db/Adapter/Exception.php" 8 times.(òÏ¨@
+D	php:S1125ç")Remove the literal "false" boolean value.(›ş¬àùÿÿÿÿ
+>	php:S1125ü"(Remove the literal "true" boolean value.(ïÅ°
+z	php:S1488Á"_Immediately return this expression instead of assigning it to the temporary variable "$result".(š¹Õåıÿÿÿÿ
+z	php:S1488ÿ"_Immediately return this expression instead of assigning it to the temporary variable "$result".(š¹Õåıÿÿÿÿ
+z	php:S1488™"_Immediately return this expression instead of assigning it to the temporary variable "$result".(š¹Õåıÿÿÿÿ
+t	php:S1488»"^Immediately return this expression instead of assigning it to the temporary variable "$where".(‰Íö‚
+z	php:S1488â"_Immediately return this expression instead of assigning it to the temporary variable "$result".(€ôÛ”øÿÿÿÿ
+z	php:S1488õ"_Immediately return this expression instead of assigning it to the temporary variable "$result".(ÒÅüåùÿÿÿÿ
+z	php:S1488›"_Immediately return this expression instead of assigning it to the temporary variable "$result".(ãªñÿÿÿÿÿ
+u	php:S1488½"_Immediately return this expression instead of assigning it to the temporary variable "$result".(Ùûµ”
+‰	php:S1448+"tClass "Zend_Db_Adapter_Abstract" has 52 methods, which is greater than 20 authorized. Split it into smaller classes.(çìàº
+E	php:S1066Ë"/Merge this if statement with the enclosing one.(Êßùµ
+Qphp:S131ğ"7Add a "case default" clause to this "switch" statement.(»£ØÔúÿÿÿÿ
